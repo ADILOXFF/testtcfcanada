@@ -50,7 +50,7 @@ const Footer = () => {
                 ayoub@tcfcanada.com
               </li>
               <li className="flex items-center gap-3 text-gray-600 text-sm">
-                <Phone className="w-4 h-4 text-primary" dir="ltr" />
+                <Phone className="w-4 h-4 text-primary" />
                 +1 506 253 6067
               </li>
               <li className="flex items-center gap-3 text-gray-600 text-sm">
