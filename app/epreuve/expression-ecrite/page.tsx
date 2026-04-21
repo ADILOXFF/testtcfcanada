@@ -1,5 +1,5 @@
 import React from 'react';
-import { Layers, Play, ChevronDown, ChevronLeft, ChevronRight, ArrowLeft, ArrowRight, Calendar, BookOpen, GraduationCap, CheckCircle } from 'lucide-react';
+import { Layers, Play, ChevronDown, ChevronLeft, ChevronRight, ArrowLeft, ArrowRight, Calendar, BookOpen, GraduationCap, CheckCircle, Youtube } from 'lucide-react';
 import Link from 'next/link';
 
 export default function ExpressionEcritePage() {

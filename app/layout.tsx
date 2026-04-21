@@ -8,15 +8,15 @@ import MobileNav from "@/components/layout/MobileNav";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "TEST TCF CANADA | Préparation complète en ligne",
-  description: "Préparez le TCF Canada efficacement avec des tests réels, exercices corrigés et entraînement complet en ligne.",
+  title: "TestTCFCanada | تحضير اختبار TCF Canada",
+  description: "استعد لاختبار TCF Canada مع تمارين حقيقية وتصحيحات مفصلة. المنصة الأولى للناطقين بالعربية.",
 };
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
   return (
     <html lang="ar" dir="rtl">
       <body className={inter.className}>
